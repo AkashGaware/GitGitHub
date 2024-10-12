@@ -19,6 +19,7 @@ public class Calculator {
 		int b = sc.nextInt();
 		
 		System.out.println("Addition = "+Calculator.add(a, b));
+		System.out.println("Substaction = "+Calculator.sub(a, b));
 	}
 
 }
