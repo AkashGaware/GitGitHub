@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Calculator {
 
-	int add(int a,int b) {
+	static int add(int a,int b) {
 		
 		return a+b;
 	}
-int sub(int a,int b) {
+	static int sub(int a,int b) {
 		
 		return a-b;
 	}
@@ -17,6 +17,8 @@ int sub(int a,int b) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
+		
+		System.out.println("Addition = "+Calculator.add(a, b));
 	}
 
 }
