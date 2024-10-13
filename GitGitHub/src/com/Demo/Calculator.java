@@ -12,6 +12,16 @@ public class Calculator {
 		
 		return a-b;
 	}
+static int mul(int a,int b) {
+		
+		return a*b;
+	}
+static int div(int a,int b) {
+	
+	return a/b;
+}
+
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -20,6 +30,8 @@ public class Calculator {
 		
 		System.out.println("Addition = "+Calculator.add(a, b));
 		System.out.println("Substaction = "+Calculator.sub(a, b));
+		System.out.println("Multiplication = "+Calculator.mul(a, b));
+		System.out.println("Division = "+Calculator.div(a, b));
 	}
 
 }
